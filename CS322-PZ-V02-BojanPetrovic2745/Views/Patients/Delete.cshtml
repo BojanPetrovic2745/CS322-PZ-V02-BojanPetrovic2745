@@ -1,0 +1,69 @@
+﻿@model CS322_PZ_V02_BojanPetrovic2745.Patient
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.prezime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.prezime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.jmbg)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.jmbg)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.simptomi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.simptomi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.terapija)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.terapija)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.izlecen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.izlecen)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

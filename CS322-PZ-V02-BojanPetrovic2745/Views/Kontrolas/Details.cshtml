@@ -1,0 +1,22 @@
+﻿@model CS322_PZ_V02_BojanPetrovic2745.Kontrola
+
+@{
+    ViewBag.Title = "Details";
+}
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.kontrola1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.kontrola1)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IDkon }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS322-PZ-V02-BojanPetrovic2745", "CS322-PZ-V02-BojanPetrovic2745\CS322-PZ-V02-BojanPetrovic2745.csproj", "{48BEC4D2-D723-49D4-8DFF-C2ADC2849213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS322-PZ-V02-BojanPetrovic2745Tests1", "CS322-PZ-V02-BojanPetrovic2745Tests1\CS322-PZ-V02-BojanPetrovic2745Tests1.csproj", "{AF135462-77D1-4A76-8761-AD8A763A2757}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48BEC4D2-D723-49D4-8DFF-C2ADC2849213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48BEC4D2-D723-49D4-8DFF-C2ADC2849213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48BEC4D2-D723-49D4-8DFF-C2ADC2849213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48BEC4D2-D723-49D4-8DFF-C2ADC2849213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF135462-77D1-4A76-8761-AD8A763A2757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF135462-77D1-4A76-8761-AD8A763A2757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF135462-77D1-4A76-8761-AD8A763A2757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF135462-77D1-4A76-8761-AD8A763A2757}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDA3C938-8580-4651-BFEE-8815BD38AD49}
+	EndGlobalSection
+EndGlobal

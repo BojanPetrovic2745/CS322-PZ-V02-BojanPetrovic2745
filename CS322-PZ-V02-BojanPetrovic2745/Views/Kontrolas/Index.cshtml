@@ -1,0 +1,31 @@
+﻿@model IEnumerable<CS322_PZ_V02_BojanPetrovic2745.Kontrola>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.kontrola1)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.kontrola1)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IDkon }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IDkon }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IDkon })
+        </td>
+    </tr>
+}
+
+</table>

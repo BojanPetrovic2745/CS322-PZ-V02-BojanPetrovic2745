@@ -1,0 +1,63 @@
+﻿@model CS322_PZ_V02_BojanPetrovic2745.Patient
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.prezime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.prezime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.jmbg)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.jmbg)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.simptomi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.simptomi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.terapija)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.terapija)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.izlecen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.izlecen)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IDpa }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
